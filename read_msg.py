@@ -3,7 +3,7 @@ import socket
 UDP_IP = "fd50:638d:bfa7:0:0:0:0:1"
 UDP_PORT = 113
 
-sock = socket.socket(socket.AF_NET, socket.SOCK_DGRAM)
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
 
 while True:
