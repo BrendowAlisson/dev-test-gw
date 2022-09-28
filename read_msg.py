@@ -1,6 +1,6 @@
 import socket
 
-UDP_IP = "fd50:638d:bfa7:0:0:0:0:1"
+UDP_IP = "fd50:638d:bfa7::1"
 UDP_PORT = 123
 
 sock = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM)
